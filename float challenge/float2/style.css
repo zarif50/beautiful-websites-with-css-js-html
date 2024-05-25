@@ -1,0 +1,56 @@
+body{
+    margin: 0 auto;
+    max-width: 900px;
+    width: 90%;
+}
+.class1{
+    display: flex;
+    background-color: none;
+    height: 75px;
+    padding: 20px;
+
+}
+#box1{
+    float: right;
+    width: 200px;
+    height: 75px;
+    border-radius: 2px;
+    border-color: black;
+    margin:5px;
+    padding: 10px;
+}
+
+class2{
+    display: flex;
+    background-color: none;
+    height: 75px;
+    padding: 5px;
+    text-align: center;
+
+}
+#box2{
+    display: flex;
+    float: left;
+    width: 200px;
+    height: 75px;
+    border-radius: 2px;
+    border-color: black;
+    margin:2px;
+    padding: 2px;
+    
+}
+class3{
+    background-color: none;
+    height: 75px;
+    padding: 5px;
+
+}
+#box3{
+    float: right;
+    width: 200px;
+    height: 100px;
+    border-radius: 2px;
+    border-color: black;
+    margin:5px;
+    padding: 2px;
+}
