@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Container">
+    <form action="" method="get">
+    <h2 class="heading">Payment Form</h2>
+    <hr>
+    <h3>User Information</h3>
+    <p>Name:*
+        <input type="text" placeholder="Zarif"  required name="name" id="name">
+    </p>
+
+    <p>
+       <fieldset>
+              <legend>Gender</legend>
+    
+              Male:<input type="radio" name="Gender" value="Male">
+              Female:<input type="radio" name="Gender" value="Female">
+       </fieldset>
+     </p>
+
+    <p>
+        Address:<br>
+        <br>
+        <textarea placeholder="Enter tour Address" id="Address" name="Address" cols="70" rows="25"></textarea>
+    </p>
+
+
+    <p>Email:
+        <br>
+      <input type="email"   placeholder="123@gmail.com"   required name="email" id="email">
+    </p>
+
+
+     <p>
+        Pincode:
+        <br>
+    <input type="password"  name="password"  placeholder="123456" id="password">
+    </p>
+
+
+    <p>
+        Card Type:
+        <br>
+        <select name="Card Type" id="Card Type">
+        <option value="">!-- Select a Card Type--"</option>
+        <option value="Visa">Visa</option>
+        <option value="Mastercard">Mastercard</option>
+       </select>
+    </p>
+
+
+    <p>
+        card number:*
+        <br>
+        <input type="number"  required placeholder="1111-2222-3333-4444"  name="number"  id="number">
+    </p>
+    <p>
+        Expiry Date:
+        <br>
+        <input type="date" required placeholder="Expiry date" id="date" name="date">
+    </p>
+    <p>
+        CVV:
+        <br>
+        <input type="number" placeholder="CVV" id="number">
+    </p>
+    <p>
+        <input type="Paynow" placeholder="Paynow">
+    </p>
+</form>
+</div>
+</body>
+</html>
